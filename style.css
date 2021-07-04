@@ -1,0 +1,96 @@
+ .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      height: auto;
+      background-color: hsla(0, 0%, 100%, 0.75) ;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      width: auto;
+      margin: 150px 200px;
+    }
+    .card{
+      height: auto;/*31vmax*/;
+      line-height: 1.6;
+      padding: 50px;
+    }
+    .card h1{
+      font-family: 'Big Shoulders Display',sans-serif;
+      color: hsl(0, 0%, 100%);
+      font-size: 2.5rem;
+      text-transform: uppercase;
+    }
+    .card p{
+      font-family: 'Lexend Deca',serif;
+      color: hsla(0, 0%, 100%, 0.75);
+      padding-bottom: 80px;
+    }
+    .left{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: hsl(31, 77%, 52%);
+    }
+    .middle{
+      background-color: hsl(184, 100%, 22%);
+    }
+    .right{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: hsl(179, 100%, 13%);
+    }
+    .card a{
+      text-decoration: none;
+      background-color: #fff;
+      padding: 12px 30px;
+      border-radius: 50px;
+      font-family: 'Lexend Deca' ,serif;
+      }
+      .card a:hover{
+        border: solid hsla(0, 0%, 100%, 0.75) 2px;
+        color:hsla(0, 0%, 100%, 0.75) ;
+      }
+
+      .left a:hover{
+        background-color:  hsl(31, 77%, 52%);
+        }
+      .middle a:hover{
+        background-color: hsl(184, 100%, 22%);
+        }
+      .right a:hover{
+        background-color: hsl(179, 100%, 13%);
+        }
+
+      .left a{
+        color:  hsl(31, 77%, 52%);
+        }
+      .middle a{
+        color: hsl(184, 100%, 22%);
+        }
+      .right a{
+        color: hsl(179, 100%, 13%);
+        }
+
+    @media screen and (max-width: 600px)
+    {
+
+         .container{
+            display: flex;
+            flex-direction: column;
+            margin: 80px 20px;
+            width: auto; 
+          }
+          .card{
+            height: auto;
+          }
+          .left{
+           border-bottom-left-radius:0;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          }
+        .right{
+          border-bottom-right-radius: 10px;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 0;
+        }
+    }
