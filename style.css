@@ -8,7 +8,7 @@
       display: grid;
       grid-template-columns: auto auto auto;
       width: auto;
-      margin: 150px 200px;
+      margin: 160px 200px 150px 200px;
     }
     .card{
       height: auto;/*31vmax*/;
